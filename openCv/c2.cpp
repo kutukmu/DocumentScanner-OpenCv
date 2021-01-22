@@ -6,7 +6,7 @@
 using namespace cv;
 using namespace std;
 
-///////////////  Project 2 - Document Scanner  //////////////////////
+///////////////  Document Scanner  //////////////////////
 
 Mat imgOriginal, imgGray, imgBlur, imgCanny, imgThre, imgDil, imgErode, imgWarp, imgCrop;
 vector<Point> initialPoints, docPoints;
